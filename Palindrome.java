@@ -19,10 +19,6 @@ public class Palindrome {
     public static boolean isPalindrome(String s) {
         return(s.equals(reverseString(s)) ? true : false);
 
-        //if (s.equals(reverseString(s)))
-        //  return true;
-        //else
-        //  return false;
     }
 
 
